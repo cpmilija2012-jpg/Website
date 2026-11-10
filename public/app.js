@@ -1,6 +1,6 @@
 // Paste your Supabase Project URL and anon/public key below. Never use the service_role key here.
-const SUPABASE_URL = "PASTE_SUPABASE_PROJECT_URL";
-const SUPABASE_ANON_KEY = "PASTE_SUPABASE_ANON_PUBLIC_KEY";
+const SUPABASE_URL = "https://qrivwszcwuahixaefoki.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_JJqdkLtK_x9x_faXhxM8RA_iHdqdD_P";
 let db=null, currentUser=null, items=[], chosen=null, mode="login";
 const el=id=>document.getElementById(id), money=n=>new Intl.NumberFormat("en-US",{style:"currency",currency:"USD"}).format(Number(n||0));
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
